@@ -1,0 +1,170 @@
+{ 
+    "competencies": 
+        {
+            "strengths": [ 
+                "problem solving",
+                "troubleshooting",
+                "follow-through",
+                "adaptability",
+                "automation",
+                "ingenuity"
+            ],
+            "personal_values": [ 
+                "colaboration",
+                "relationships",
+                "customer satisfaction",
+                "humility",
+                "transparency"
+            ],
+            "technologies": [
+                {
+                    "proficiency": "10",
+                    "tech_name": "Linux"
+                },
+                {
+                    "proficiency": "10",
+                    "tech_name": "Puppet"
+                },
+                {
+                    "proficiency": "10",
+                    "tech_name": "Perl"
+                },
+                {
+                    "proficiency": "9",
+                    "tech_name": "Git"
+                },
+                {
+                    "proficiency": "8",
+                    "tech_name": "Tomcat / Apache"
+                },
+                {
+                    "proficiency": "7",
+                    "tech_name": "Python"
+                },
+                {
+                    "proficiency": "7",
+                    "tech_name": "CSS / HTML"
+                },
+                {
+                    "proficiency": "6",
+                    "tech_name": "Ansible"
+                },
+                {
+                    "proficiency": "6",
+                    "tech_name": "SQL"
+                }
+            ]
+        },
+    "education": [
+	    {
+		    "degree": "B.S.",
+		    "degree_year": "2008",
+		    "field": "Computer Science & Mathematics / Dual Major",
+		    "gpa": "GPA 3.8/4.0",
+		    "school_honor": [ "GP 3.8/4.0", "Magna Cum Laude", "Mathematics Award" ],
+		    "school": "Big Tech U."
+	    }
+    ],
+    "contact_info": {
+        "email": "me@email.com",
+        "phone": "555.123.4567",
+        "github": "github.com/daveyvango",
+        "location": "IL, USA",
+        "address_full": "Available Upon Request; Hometown IL 12345"
+    },
+    "experience": [
+        {
+            "company": "UNIVERSITY OF STATE"
+            "position_desc": {
+                "position_summary": "Design, build, and implement Linux infrastructure solutions using Puppet, Python, Ansible, Shell, and VmWare.  Additionally provide general automation solutions.",
+                "results": [
+                    "Within 6 months, rolled out Puppet and Ansible for automated software deployment, system checks, and database backups",
+                    "Reduced countless staff hours by developing Python tool to collect metadata and copyright details for 1000+ NIU-produced articles from Microsoft and SHERPA RoMEO REST APIs",
+                    "Migrated 5 out-of-date systems to new versions on recent OS builds",
+                    "Made automated CentOS 7 installs, non-root logins, and group-based security a standard",
+                    "Provided pricing information for Google Cloud, Azure, and AWS hosting options."
+                ]
+            },
+            "position_title": "Systems Administrator",
+            "tenure": "JUNE 2018 - NOW"
+        },
+        {
+            "company": "INSURANCE COMPANY",
+            "position_desc": {
+                "position_summary": "Full-stack developer of custom-built infrastructure coordination tools.",
+                "results": [
+			"In Splunk infrastructure migration, provided tooling that saved business partners 1000+ manual tasks for each deployment",
+			"Scripted Perl against F5 REST API to modify external data groups for layer 7 load balancing",
+			"Guided new area into self-service infrastructure model to save weeks of process and thousands of dollars when building new systems by using Puppet and in-house IaaS solution",
+			"Delivered data manipulation Perl scripting for MQ support, reducing delivery time of test queue builds from 5 days to 30 minutes",
+			"Created Perl Mojolicious web hook receiver and used Gitlab CI runner as proof of concept to automatically create development branches, test code, run Docker, update Gitlab issues, and open request for change tickets"
+                ]
+            },
+            "position_title": "Automation Engineer",
+            "tenure": "JUNE 2017 - JUNE 2018"
+},
+        {
+            "company": "INSURANCE COMPANY",
+            "position_desc": {
+                "position_summary": "Enabled and supported workstation tools and infrastructure for 1000+ developers.",
+                "results": [
+			"Python scripting for reporting product usage saving time for management",
+			"Pioneered low-overhead software testing via local Docker containers instead of creating new or interfering with in-use virtual machines",
+			"Led support for an in-house developed distributed testing tool involving Java, IBM WebSphere, and IBM MQ",
+			"Increased developer velocity and reduced development service dependencies through support of Service Virtualization (SV) using IBM Rational Integration Tester (IBM RIT)",
+			"Took initiative to develop self-guided training with local workstation Tomcat JPetStore app, reducing costs for pricey vendor-provided training courses"
+                ]
+            },
+            "position_title": "DevOps Enablement and Support",
+            "tenure": "JUNE 2015 - MAY 2017"
+        },
+        {
+            "company": "INSURANCE COMPANY",
+            "position_desc": {
+                "position_summary": "Apache, Tomcat, JBoss, IBM IHS, and Puppet support on RHEL 6",
+                "results": [
+			"Primary developer of common Puppet modules for Apache and Tomcat, including TLS and Kerberos enablement",
+			"Architect, developer, and maintainer of Puppet-controlled, shared Apache and Tomcat web farm, allowing stable and secure environment for various one-off applications",
+			"Handled off-hours implementations for infrastructure upgrades and patching",
+			"Capacity planning for IHS servers in J2EE environments",
+			"Wrote Splunk alerting based for allerting F5 attack signatures"
+                ]
+            },
+            "position_title": "Linux Web Server Admin",
+            "tenure": "AUGUST 2010 - JULY 2015"
+        },
+        {
+            "company": "INSURANCE COMPANY",
+            "position_desc": {
+                "position_summary": "Capacity planning, performance test consulting, performance test analysis for enterprise-level projects and software",
+                "results": [
+			"Forecasted data center power and space utilization uncovering the need for more power",
+			"Created custom charting macros in MS Excel to quickly analyze performance test results",
+			"Volunteered Perl scripting to automatically gather agency backup modem serial numbers"
+                ]
+            },
+            "position_title": "Proactive Performance Engineer",
+            "tenure": "MAY 2008 - JULY 2010"
+        }
+    ],
+    "headlines": [
+        {
+            "headline": "From Zero to Automated in Six Months",
+            "summary": "Implemented faster OS rollouts, Ansible, and Puppet to infrastructure in my current role within 6 months"
+        },
+        {
+            "headline": "Eleven Years Active",
+            "summary": "All experience has been hands-on and technical."
+        },
+        {
+            "headline": "Hundreds of Nodes Impacted",
+            "summary": "Working on an infrastructure larger than the Library of Congress, I have provided solutions both at mass and targetted across several programming languages and technologies."
+        },
+        {
+            "headline": "Language Agnostic; Automation Passionate",
+            "summary": "I adapt to the language or technology to fit the need.  Although I \"grew up\" on Perl and Shell, I really enjoy working in Python."
+        }
+    ],
+    "person_name": "Davey VanGo",
+    "person_summary": "Automation-minded infrastructure analyst with 15 years of IT experience.  Hands-on involvement with a variety of open source and vendor-provided software. Solid technical troubleshooting, scripting, maintenance, and software delivery experience in a vast, diverse, geographically redundant, highly available infrastructures."
+}

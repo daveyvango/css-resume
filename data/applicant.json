@@ -1,0 +1,137 @@
+{ 
+    "competencies": 
+        {
+            "strengths": [ 
+                "problem solving",
+                "troubleshooting",
+                "follow-through",
+                "adaptability",
+                "automation",
+                "ingenuity"
+            ],
+            "personal_values": [ 
+                "colaboration",
+                "relationships",
+                "customer satisfaction",
+                "humility",
+                "transparency"
+            ],
+            "technologies": [
+                {
+                    "proficiency": "10",
+                    "tech_name": "Tech Name"
+                },
+                {
+                    "proficiency": "10",
+                    "tech_name": "Tech Name"
+                },
+                {
+                    "proficiency": "10",
+                    "tech_name": "Tech Name"
+                },
+                {
+                    "proficiency": "9",
+                    "tech_name": "Tech Name"
+                },
+                {
+                    "proficiency": "8",
+                    "tech_name": "Tech Name"
+                }
+            ]
+        },
+    "education": [
+	    {
+		    "degree": "B.S.",
+		    "degree_year": "2018",
+		    "field": "Computer Science",
+		    "gpa": "GPA 3.8/4.0",
+		    "school_honor": [ "GP 3.8/4.0", "Magna Cum Laude", "Mathematics Award" ],
+		    "school": "IT Technical University"
+	    }
+    ],
+    "contact_info": {
+        "email": "john.doe@example.com",
+        "phone": "123.456.7890",
+        "github": "github.com/johndoe",
+        "location": "City ST, USA",
+        "address_full": "123 Main St; City, ST 12345"
+    },
+    "experience": [
+        {
+            "company": "COMPANY NAME LLC",
+            "position_desc": {
+                "position_summary": "Overview of role at the company.",
+                "results": [
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome."
+                ]
+            },
+            "position_title": "Position Title",
+            "tenure": "JUNE 2018 - NOW"
+        },
+        {
+            "company": "COMPANY NAME LLC",
+            "position_desc": {
+                "position_summary": "Overview of role at the company.",
+                "results": [
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome."
+                ]
+            },
+            "position_title": "Position Title",
+            "tenure": "JUNE 2018 - NOW"
+        },
+        {
+            "company": "COMPANY NAME LLC",
+            "position_desc": {
+                "position_summary": "Overview of role at the company.",
+                "results": [
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome."
+                ]
+            },
+            "position_title": "Position Title",
+            "tenure": "JUNE 2018 - NOW"
+        },
+        {
+            "company": "COMPANY NAME LLC",
+            "position_desc": {
+                "position_summary": "Overview of role at the company.",
+                "results": [
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome.",
+                    "Problem, action, resolution, outcome."
+                ]
+            },
+            "position_title": "Position Title",
+            "tenure": "JUNE 2018 - NOW"
+        }
+    ],
+    "headlines": [
+        {
+            "headline": "Really great thing accomplished.",
+            "summary": "Brief description of accomplishment"
+        },
+        {
+            "headline": "Experience Highlight",
+            "summary": "Spent N years in ABC industry with specific result"
+        },
+        {
+            "headline": "About you",
+            "summary": "Teamwork and driving results is great"
+        },
+        {
+            "headline": "Maybe something else you'd like to highlight",
+            "summary": "Spent N years in ABC industry with specific result"
+        }
+    ],
+    "person_name": "John Doe",
+    "person_summary": "I am a person with this summary.  I'm driven by customer satisfaction as I've shown throughout my working career.  I lead company 1 to 50% growth in 2 years.  People love me!"
+}

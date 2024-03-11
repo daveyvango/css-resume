@@ -1,0 +1,40 @@
+.chart {
+  /*background-color: var(--light-gray-background);*/
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 1px;
+  width: 100%;
+}
+
+.bar {
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="bar-"] {
+  float: left;
+  padding: 3px;
+  background-color: var(--compliment-color);
+  color: var(--light-text);
+  border-radius: 0px 5px 5px 0px;
+  font-size: var(--desc-size);
+  font-weight: bold;
+}
+
+.bar-1  { width: 10%; }
+.bar-2  { width: 20%; }
+.bar-3  { width: 30%; }
+.bar-4  { width: 40%; }
+.bar-5  { width: 50%; }
+.bar-6  { width: 60%; }
+.bar-7  { width: 70%; }
+.bar-8  { width: 80%; }
+.bar-9  { width: 90%; }
+.bar-10 { width: 100%; }

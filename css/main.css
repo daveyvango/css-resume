@@ -1,0 +1,266 @@
+:root {
+  /* colors */
+  /* --primary-blue: #0099cc; */
+  --primary-color: #005194;
+  --secondary-color: #0072b3;
+  --compliment-color: #006b71;
+  --primary-text: #333333;
+  --gray-text: #B1854C;
+  --light-text: #f0f0f0;
+  --light-gray-background: #dddddd;
+
+  /* fonts sizes */
+  --title-size: 17px;
+  --subtitle-size: 15px;
+  --desc-size: 13px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html, body {
+  font-family: Helvetica, sans-serif;
+  width: 8.5in;
+}
+
+ul {
+  margin-top: 2px;
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 3px;
+}
+
+.hide-me-on-print {
+  /* in the print media query, this goes to 'none' */;
+  display: block;
+}
+
+.page-outline {
+  display: block;
+  height: 11in;
+  width: 8.5in;
+  border: dashed black 1px;
+  box-shadow: 10px 10px #888888;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(256,256,256,0);
+}
+
+.header {
+  background-color: var(--primary-color);
+  color: var(--light-text);
+}
+
+.header-blend {
+  /*
+  background-image: linear-gradient(to bottom, var(--primary-color) 90%, var(--compliment-color) 100%);
+  */
+}
+
+.icons {
+  color: var(--primary-color);
+}
+
+.person_name {
+  color: var(--light-text); 
+  font-size: 28px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.person_summary {
+  font-size: var(--desc-size);
+}
+
+.contact_info {
+  color: var(--compliment-color);
+  font-size: var(--subtitle-size);
+  padding: 1px 1px 1px 5px;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.column-header {
+  color: var(--secondary-color);
+  font-size: var(--title-size);
+  font-weight: bold;
+  text-align: center;
+}
+
+.headline {
+  color: var(--compliment-color);
+  font-size: var(--subtitle-size);
+  margin-bottom: 5px; 
+  font-weight: bold;
+}
+
+.headline .summary {
+  margin-top: 2px;
+  color: var(--primary-color);
+  font-size: var(--desc-size);
+  font-weight: normal;
+}
+
+.skill {
+  font-size: var(--subtitle-size);
+  color: var(--primary-color);
+  font-weight: normal;
+}
+
+#experience_and_education {
+  border-left: 1px solid var(--compliment-color);
+  background-image: linear-gradient(to right, var(--compliment-color) 0%, white 1.5%);
+  padding-left: 10px;
+}
+
+.personal_value {
+  font-size: var(--subtitle-size);
+  color: var(--primary-color);
+  font-weight: normal;
+}
+
+.position_title {
+  font-weight: bold;
+  font-size: var(--subtitle-size);
+  color: var(--compliment-color);
+  float: left;
+  padding-right: 5px;
+}
+
+.company {
+  color: var(--compliment-color);
+  font-size: var(--desc-size);
+  float: left;
+}
+
+.tenure {
+  color: var(--gray-text);
+  font-size: var(--desc-size);
+  float: right; 
+}
+
+.position_summary {
+  color: var(--primary-text);
+  font-size: var(--subtitle-size);
+  margin-bottom: 3px;
+}
+
+.position_desc {
+  font-size: var(--desc-size);
+  color: var(--primary-text);
+}
+
+.degree {
+  font-size: var(--subtitle-size);
+  color: var(--compliment-color);
+  font-weight: bold;
+  float: left;
+}
+
+.school {
+  font-size: var(--subtitle-size);
+  color: var(--compliment-color);
+  float: left;
+}
+
+.degree_year {
+  color: var(--primary-text);
+  font-size: var(--desc-size);
+  float: right; 
+}
+
+.school_honor {
+  font-size: var(--desc-size);
+  color: var(--primary-text);
+  font-weight: normal;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: #000000;
+  text-align: right;
+  font-size: var(--desc-size);
+  padding: 1px;
+  margin-right: 5px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+ /*
+ * Make the main view of the webpage match 
+ * what columns will print 
+ */
+@media only screen and (min-width: 810px) {
+  .col-s-1 {width: 0.66in;} 
+  .col-s-2 {width: 1.33in;}
+  .col-s-3 {width: 1.99in;}
+  .col-s-4 {width: 2.66in;}
+  .col-s-5 {width: 3.33in;}
+  .col-s-6 {width: 3.99in;}
+  .col-s-7 {width: 4.66in;}
+  .col-s-8 {width: 5.33in;}
+  .col-s-9 {width: 5.99in;}
+  .col-s-10 {width: 6.66in;}
+  .col-s-11 {width: 7.33in;}
+  .col-s-12 {width: 8.00in;}
+  .col-s-25 {width: 0.25in;}
+}
+
+@media print {
+  /* 
+   * Printing the page (likely to PDF)
+   * Give 1/4" margins and split up sections by 2/3" (8/12)
+   */
+
+  @page {
+    size: Letter;   /* auto is the initial value */ 
+    /* this affects the margin in the printer settings */ 
+    margin: 0mm;
+  } 
+  html, body {
+    width: 210mm;
+    height: 282mm;
+    overflow: visible;
+  }
+  body {
+    padding-top: 0mm;
+  }	
+  /* get rid of the page outline when printing */
+  .page-outline {
+    all: initial;
+    * {
+      all: unset;
+    }
+  }
+
+  .hide-me-on-print {
+    display: none;
+  }
+
+  .col-p-1 {width: 0.66in;} 
+  .col-p-2 {width: 1.33in;}
+  .col-p-3 {width: 1.99in;}
+  .col-p-4 {width: 2.66in;}
+  .col-p-5 {width: 3.33in;}
+  .col-p-6 {width: 3.99in;}
+  .col-p-7 {width: 4.66in;}
+  .col-p-8 {width: 5.33in;}
+  .col-p-9 {width: 5.99in;}
+  .col-p-10 {width: 6.66in;}
+  .col-p-11 {width: 7.33in;}
+  .col-p-12 {width: 8.00in;}
+  .col-p-25 {width: 0.25in;}
+}
