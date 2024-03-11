@@ -74,7 +74,7 @@
     },
     "experience": [
         {
-            "company": "UNIVERSITY OF STATE"
+            "company": "UNIVERSITY OF STATE",
             "position_desc": {
                 "position_summary": "Design, build, and implement Linux infrastructure solutions using Puppet, Python, Ansible, Shell, and VmWare.  Additionally provide general automation solutions.",
                 "results": [
